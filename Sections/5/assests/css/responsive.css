@@ -1,0 +1,8 @@
+@media(max-width:992px){
+    .tittle h1 {
+    width: 373px;
+    }
+    .content .row{
+        gap: 20px;
+    }
+}

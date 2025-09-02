@@ -1,0 +1,52 @@
+:root{
+    --red:#FA797D;
+    --blue: #153B64;
+    --gray:#817e7d;
+}
+::selection{
+    color:white;
+    background-color: #153B64;
+}
+
+.tittle{
+    padding: 20px;
+}
+.tittle p{
+    color: var(--red);
+    font-weight: 500;
+}
+.tittle h1{
+    color: var(--blue);
+    width: 604px;
+    font-weight: 700;
+}
+.content .container-fluid{
+    padding:15px 40px;
+}
+.content .element{
+    padding: 0;
+    width: 303px;
+    margin:0 10px;
+    box-shadow: 0 6px 11px rgb(242 236 236);
+    transition: all 1s ease;
+}
+.tittle .container .col{
+    flex-direction: column;
+}
+.content .element h4{
+   color: var(--blue);
+   font-weight: 700;
+}
+.content .element p{
+    color: var(--gray);
+}
+.content .element img{
+    width: 100%;
+    height: 300px;
+}
+.content .element > div{
+    padding: 20px;
+}
+.content .element:hover{
+    transform: translateY(-6px);
+}

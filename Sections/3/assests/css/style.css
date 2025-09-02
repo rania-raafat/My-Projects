@@ -1,0 +1,107 @@
+::selection{
+    background-color: #E72126;
+    color: white;
+}
+.container {
+    margin: 10px auto;
+     height: auto;
+    position: relative;
+    max-width: 1300px;
+    background-image:url("../images/image.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.container .relay{
+    position: absolute;
+    background-color: #000;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: 1;
+}
+.container > .row{
+    position: relative;
+    z-index: 9999999999;
+    gap: 10px;
+    top: 35px;
+}
+.container .row .element{
+    background-color: white;
+    width: 460px;
+    height: 565px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 19px -6px #b8b1b1;
+    transition: all 1s ease;
+}
+.container .element:hover{
+    transform: translateY(-6px);
+}
+.container .element > P{
+   color: #757575;
+}
+.container input , .container textarea{
+    outline: none;
+    border-color: #e3dbdb;
+    border-radius: 5px;
+}
+.container textarea{
+    padding: 10px 0 0 10px;
+}
+.container input{
+    width: 321px;
+    border-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.container .form div{
+    border: #e3dbdb 1px solid;
+    box-sizing: border-box;
+    padding:0 10px;
+    border-radius: 5px;
+}
+.container .form div , textarea{
+    width: 100%;
+    resize: none;
+}
+.container .form button{
+    outline: none;
+    border-block-style:none;
+    border: rgba(255, 255, 255, 0);
+    background-color: #E72126;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: all 1s ease;
+}
+.container .form button:hover{
+    background-color: #000;
+}
+.container .element2{
+    color: white;
+}
+.container .element2 .txt , .container .element2 .row p{
+   color: #cfcaca;
+}
+.container .element2 .row h2{
+    background-color: #E72126;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    border-radius: 30px;
+    outline: 5px solid #e7212859;
+}
+.container .element2 > p:first-child{
+    color: #E72126;
+    font-size: 15px;
+}
+

@@ -1,0 +1,13 @@
+@media(max-width:992px){
+    .container{
+        max-width: 754px;
+        height: auto;
+    }
+    .container input {
+       width: 217px;
+    }
+    .container .row .element {
+    width: 357px;
+    height: auto;
+    }
+}

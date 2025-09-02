@@ -1,0 +1,123 @@
+body::selection{
+    color: white;
+    background-color:var(--color);
+}
+:root{
+    --color:rgb(245, 73, 61);
+    --color2:#948e8e;
+}
+.head{
+    text-align: center;
+    margin: 65PX;
+    margin-top: 31px;
+}
+.head p{
+    position: relative;
+    display: flex;
+    color: var(--color);
+    justify-content: center;
+}
+.head p::after{
+    position:absolute;
+    content:"OUR BLOG";
+    color: white;
+    font-size: 71px;
+    top: -28px;
+    z-index: -1;
+    -webkit-text-stroke: 1px #eee;
+}
+.head p::before{
+    position: absolute;
+    content: '';
+    background-color: var(--color);
+    width: 25px;
+    height: 2px;
+    top: 8px;
+    left: 649px;
+}
+.head h1{
+    font-size: 42px;
+    margin-top: 5px;
+}
+.parent-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+.parent-box .child-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border:1px solid #eee ;
+    width: 392px;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+.parent-box .child-box .image{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.parent-box .child-box.one::after{
+    display: flex;
+    position: absolute;
+    content:"Marketing";
+    background-color: var(--color);
+    color:white ;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 130px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    top: 32px;
+    left: 20px;
+    border-radius: 20px
+}
+.parent-box .child-box.two::after{
+    display: flex;
+    position: absolute;
+    content:"UI/UX Design";
+    background-color: var(--color);
+    color:white ;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 130px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    top: 32px;
+    left: 20px;
+    border-radius: 20px
+}
+.parent-box .child-box .part{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.parent-box .child-box .part .icon{
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.parent-box .child-box .part p{
+    margin: 0%;
+    font-size: 15px;
+    color: var(--color2);
+    margin-right: 30px;
+}
+.parent-box .child-box h2{
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+.parent-box .child-box p{
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.parent-box .child-box p.lor{
+    color: var(--color2);
+}
